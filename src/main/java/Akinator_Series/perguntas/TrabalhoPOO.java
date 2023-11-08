@@ -1,8 +1,9 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
+package Akinator_Series.perguntas;
 
-import Akinator_Series.perguntas.JogoSerie;
+
 
 /**
  *
@@ -10,8 +11,4 @@ import Akinator_Series.perguntas.JogoSerie;
  */
 public class TrabalhoPOO {
 
-    public static void main(String[] args) {
-        JogoSerie serie = new JogoSerie();
-        serie.iniciarPergunta();
-    }
 }
