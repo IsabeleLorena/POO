@@ -13,7 +13,19 @@ public class MenuPrincipal {
     public void executar() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("**** FILMES E PERSONAGENS DE CINEMA ******");
+        System.out.println("Escolha uma das series listadas");
+        System.out.println("- CRIMINAL MINDS");
+        System.out.println("- ORANGE IS THE NEW BLACK");
+        System.out.println("- OUTLANDER");
+        System.out.println("- GILMORE GIRLS");
+        System.out.println("- O MENTALISTA");
+        System.out.println("- THE BIG BANG THEORY");
+        System.out.println("- LUPIN");
+        System.out.println("- GAME OF THRONES");
+        System.out.println("- EU,A PATROA E AS CRIANÇAS");
+        System.out.println("- HANMIBAL");
+        System.out.println("- THE HAUNTING OF HILL HOUSE");
+
             System.out.println("Escolha um idioma:");
             System.out.println("1. Inglês.");
             System.out.println("2. Francês.");

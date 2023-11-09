@@ -14,7 +14,7 @@ public class MenuGenero {
 
     public void executarRomance() {
         System.out.println("1.Uma série romântica sobre um casal improvável.");
-        System.out.println("2.Uma série de romance que se passa em uma pequena cidade.");
+        System.out.println("2.Uma série de romance que se passa em uma pequena cidade envolvendo mãe e filha.");
         System.out.println("3. Sair.");
         System.out.print("Digite sua opção:");
         Scanner scanner = new Scanner(System.in);
@@ -40,7 +40,7 @@ public class MenuGenero {
         if (opcao == 1) {
             System.out.println("CRIMINAL MINDS.");
         } else if (opcao == 2) {
-            System.out.println("MENTALISTA.");
+            System.out.println("O MENTALISTA.");
         } else if (opcao == 3) {
         System.out.println("Você saiu do quiz de séries .");
             return;
@@ -67,7 +67,7 @@ public class MenuGenero {
 
     public void executarComedia() {
         System.out.println("1. Grupo de amigos Nerds.");
-        System.out.println("2. Sobre uma família que o pai cuida e protege as crianças.");
+        System.out.println("2. Sobre uma família que o pai cuida e protege seus filhos e esposa.");
         System.out.println("3. Sair.");
         System.out.print("Digite sua opção: ");
         Scanner scanner = new Scanner(System.in);
