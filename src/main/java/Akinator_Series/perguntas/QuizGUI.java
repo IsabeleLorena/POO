@@ -1,0 +1,9 @@
+package Akinator_Series.perguntas;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class QuizGUI extends JFrame{
+  }
