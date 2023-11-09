@@ -7,7 +7,6 @@ package Akinator_Series.perguntas;
 import java.util.Scanner;
 
 /**
- *
  * @author Dieuphenson
  */
 public class MenuGenero {
@@ -29,6 +28,7 @@ public class MenuGenero {
             return;
         }
     }
+
     public void executarPolicialInvestigacao() {
         System.out.println("1. Sobre Perfil Comportamental.");
         System.out.println("2. Ex-vidente.");
@@ -42,9 +42,9 @@ public class MenuGenero {
         } else if (opcao == 2) {
             System.out.println("O MENTALISTA.");
         } else if (opcao == 3) {
-        System.out.println("Você saiu do quiz de séries .");
+            System.out.println("Você saiu do quiz de séries .");
             return;
-    }
+        }
     }
 
     public void executarAcao() {
@@ -59,10 +59,10 @@ public class MenuGenero {
             System.out.println("GAME OF THRONES.");
         } else if (opcao == 2) {
             System.out.println("ORANGE IS THE NEW BLACK.");
-    } else if (opcao == 3) {
-        System.out.println("Você saiu do quiz de séries.");
+        } else if (opcao == 3) {
+            System.out.println("Você saiu do quiz de séries.");
             return;
-    }
+        }
     }
 
     public void executarComedia() {
@@ -82,6 +82,7 @@ public class MenuGenero {
             return;
         }
     }
+
     public void executarTerror() {
         System.out.println("1. Uma série de terror sobrenatural com fantasmas.");
         System.out.println("2. Uma série de terror psicológico e suspense.");

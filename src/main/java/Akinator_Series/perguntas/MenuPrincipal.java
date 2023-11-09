@@ -4,7 +4,6 @@ package Akinator_Series.perguntas;
 import java.util.Scanner;
 
 /**
- *
  * @author Dieuphenson
  */
 public class MenuPrincipal {
@@ -26,23 +25,23 @@ public class MenuPrincipal {
         System.out.println("- HANMIBAL");
         System.out.println("- THE HAUNTING OF HILL HOUSE");
 
-            System.out.println("Escolha um idioma:");
-            System.out.println("1. Inglês.");
-            System.out.println("2. Francês.");
-            System.out.println("3. Sair.");
-            System.out.print("Digite sua opção: ");
-            opcao = scanner.nextInt();
+        System.out.println("Escolha um idioma:");
+        System.out.println("1. Inglês.");
+        System.out.println("2. Francês.");
+        System.out.println("3. Sair.");
+        System.out.print("Digite sua opção: ");
+        opcao = scanner.nextInt();
 
-            if (opcao == 1) {
-                MenuContinente menuContinente = new MenuContinente();
-                menuContinente.executar();
-            } else if (opcao == 2) {
-                MenuContinente menuContinente = new MenuContinente();
-                menuContinente.executar();
-            } else if (opcao == 3) {
-                System.out.println("Você saiu do programa.");
-            } else {
-                System.out.println("Opção inválida. Escolha novamente.");
-            }
+        if (opcao == 1) {
+            MenuContinente menuContinente = new MenuContinente();
+            menuContinente.executar();
+        } else if (opcao == 2) {
+            MenuContinente menuContinente = new MenuContinente();
+            menuContinente.executar();
+        } else if (opcao == 3) {
+            System.out.println("Você saiu do programa.");
+        } else {
+            System.out.println("Opção inválida. Escolha novamente.");
+        }
     }
 }
