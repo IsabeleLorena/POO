@@ -17,9 +17,7 @@ public class MenuPrincipal {
             System.out.println("Escolha um idioma:");
             System.out.println("1. Inglês.");
             System.out.println("2. Francês.");
-            System.out.println("3. Espanhol.");
-            System.out.println("4. Português.");
-            System.out.println("5. Sair.");
+            System.out.println("3. Sair.");
             System.out.print("Digite sua opção: ");
             opcao = scanner.nextInt();
 
@@ -27,10 +25,12 @@ public class MenuPrincipal {
                 MenuContinente menuContinente = new MenuContinente();
                 menuContinente.executar();
             } else if (opcao == 2) {
+                MenuContinente menuContinente = new MenuContinente();
+                menuContinente.executar();
+            } else if (opcao == 3) {
                 System.out.println("Você saiu do programa.");
             } else {
                 System.out.println("Opção inválida. Escolha novamente.");
             }
-        }
-
+    }
 }

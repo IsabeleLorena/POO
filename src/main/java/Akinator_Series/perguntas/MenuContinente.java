@@ -27,11 +27,12 @@ public class MenuContinente {
             if (opcao == 1) {
                 MenuTipoSerie menuTipoSerie = new MenuTipoSerie();
                 menuTipoSerie.executar();
+                return;
             } else if (opcao == 2) {
                 System.out.println("Você escolheu 'Lupin'.");
                 return;
             } else if (opcao == 3) {
-                System.out.println("Você saiu do quiz de séries europeias.");
+                System.out.println("Você saiu do quiz de séries.");
                 return;
             } else {
                 System.out.println("Opção inválida. Escolha novamente.");

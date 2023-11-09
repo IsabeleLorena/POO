@@ -31,18 +31,23 @@ public class MenuTipoSerie {
             if (opcao == 1) {
                 MenuGenero menuGenero = new MenuGenero();
                 menuGenero.executarPolicialInvestigacao();
+                return;
             } else if (opcao == 2) {
                 MenuGenero menuGenero = new MenuGenero();
                 menuGenero.executarAcao();
+                return;
             } else if (opcao == 3) {
                 MenuGenero menuGenero = new MenuGenero();
                 menuGenero.executarComedia();
+                return;
             } else if (opcao == 4) {
                 MenuGenero menuGenero = new MenuGenero();
                 menuGenero.executarRomance();
+                return;
             } else if (opcao == 5) {
                 MenuGenero menuGenero = new MenuGenero();
                 menuGenero.executarTerror();
+                return;
             }
         }
     }
