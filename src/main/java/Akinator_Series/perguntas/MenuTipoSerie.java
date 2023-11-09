@@ -8,7 +8,6 @@ package Akinator_Series.perguntas;
 import java.util.Scanner;
 
 /**
- *
  * @author Dieuphenson
  */
 public class MenuTipoSerie {
